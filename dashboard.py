@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(layout='wide')
+st.set_page_config(page_title='Dashboard', layout='wide')
 
 def formata_numero(valor, prefixo=''):
     for unidades in ['','mil']:
